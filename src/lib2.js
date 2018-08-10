@@ -1,0 +1,1 @@
+window.libraryName = window.libraryName || "Lib 2" // we check if a certain name has already been set!
