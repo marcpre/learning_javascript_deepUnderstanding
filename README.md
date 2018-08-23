@@ -2,4 +2,4 @@
 
 [https://www.udemy.com/understand-javascript/](https://www.udemy.com/understand-javascript/)
 
---> go on from 06/058
+--> go on from 06/060
