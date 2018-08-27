@@ -14,7 +14,7 @@ Person.prototype.getFullName = function() {
 var john = Person('John', 'Doe');
 console.log(john); // if I forget new the obj is undefined
 
-var jane = Person('Jane', 'Doe');
+var jane = Person('Jane', 'Doe'); // all classes should have a capital letter
 console.log(jane);
 
 Person.prototype.getFormalFullName = function() {
