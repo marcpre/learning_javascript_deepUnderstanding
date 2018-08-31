@@ -70,6 +70,28 @@
             this.language = lang;
             this.validate();
             return this;
+        },
+
+        HTMLGreeting: function(selector, formal) {
+            if (!$) {
+                throw "JQery not loaded.";
+            }
+
+            if (!selector) {
+                throw "Missing JQery selector.";
+            }
+
+            var msg;
+            if (formal) {
+                msg = this.formalGreetings();
+            }
+            else {
+                msg = this.greetings();
+            }
+
+            $(selector).html(msg);
+
+            return this;
         }
 
     };
